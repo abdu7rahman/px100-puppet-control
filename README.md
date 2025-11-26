@@ -39,26 +39,19 @@ sudo apt install ros-humble-moveit ros-humble-interbotix-xsarm-control ros-humbl
 
 ## Installation
 ```bash
-git clone https://github.com/yourusername/px100-puppet-control.git
+git clone https://github.com/abdu7rahman/px100-puppet-control.git
 cd px100-puppet-control
-pip3 install -r requirements.txt
 ```
 
 ## Quick Start
 
-### Method 1: Manual Launch
+### Launch
 ```bash
 # Terminal 1: Launch robot with MoveIt
 ros2 launch interbotix_xsarm_moveit xsarm_moveit.launch.py robot_model:=px100 hardware_type:=actual
 
 # Terminal 2: Run puppet control
 python3 puppet_control.py
-```
-
-### Method 2: Launch Script
-```bash
-chmod +x launch.sh
-./launch.sh
 ```
 
 ## Controls
@@ -224,14 +217,14 @@ Contributions welcome! Please open an issue or submit a pull request.
 
 ## Citation
 
-If you use this work in your research, please cite:
+If you use this work in your research, please cite or don't,  Not like its an invention but its just some teleoperation code that just helps give people insight that this is possible like ofc it is possible 
 ```
 @misc{px100_puppet_control,
   author = {Abdul Rahman, Mohammed},
   title = {PX100 Puppet Control: Vision-Based Robotic Teleoperation},
   year = {2025},
   publisher = {GitHub},
-  url = {https://github.com/yourusername/px100-puppet-control}
+  url = {https://github.com/abdu7rahman/px100-puppet-control}
 }
 ```
 
