@@ -1,4 +1,4 @@
-# PX100 Puppet Control
+# Pincher X100 Puppet Control
 
 Real-time vision-based teleoperation for the PincherX100 robotic arm. Control your robot like a puppet using just your hand and a webcam.
 
@@ -123,9 +123,6 @@ ros2 action list | grep execute_trajectory
 MS Robotics, Northeastern University  
 [LinkedIn](https://linkedin.com/in/abdu7rahman) | mohammedabdulr.1@northeastern.edu
 
-## License
-
-MIT License - see LICENSE file
 
 ## Acknowledgments
 
